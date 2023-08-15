@@ -1,9 +1,9 @@
-.content1 {
+section {
   background-color: lightgrey;
   width: 600px;
 }
 
-name {
+h1 {
   font-weight: bold;
   font-size: 25px;
 }

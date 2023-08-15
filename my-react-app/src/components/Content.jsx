@@ -1,12 +1,12 @@
-import Name from "./Name";
-import Text from "./Text";
+import Title from "./Title";
+import Description from "./Description";
 
 const Content = (props) => {
   return (
-    <>
-      <Name name={props.name} />
-      <Text text={props.text} />
-    </>
+    <section>
+      <Title name={props.name} />
+      <Description text={props.text} />
+    </section>
   );
 };
 
